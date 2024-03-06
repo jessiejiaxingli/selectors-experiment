@@ -1,0 +1,46 @@
+*{
+	box-sizing: border-box;
+	font-family: monospace;
+}
+
+body{
+	display: flex;
+	background-color: palevioletred;
+}
+
+div{
+	border-style: inset;
+	border-color: honeydew;
+	margin: 3vh;
+	padding: 3vh;
+}
+
+p:first-of-type{
+	font-size: 24pt;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+a:hover{
+	background-color: palegoldenrod;
+}
+
+.bigone {
+	width: 50vw;
+	background-color: lightcyan;
+}
+
+.bigone .smallone{
+	background-color: palegreen;
+}
+
+.smallone div{
+	background-color: palegoldenrod;
+}
+
+.smallone div:hover{
+	background-color: hotpink;
+}
